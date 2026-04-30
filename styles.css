@@ -436,7 +436,7 @@ strong {
 .header-inner {
   display: flex;
   align-items: center;
-  gap: var(--sp-6);
+  gap: var(--sp-3);
   height: 100%;
 }
 
@@ -495,18 +495,19 @@ strong {
 .nav-list {
   display: flex;
   align-items: center;
-  gap: var(--sp-1);
+  gap: 0;
 }
 
 .nav-list a {
   display: block;
-  padding: var(--sp-2) var(--sp-3);
-  font-size: 0.9375rem;
+  padding: var(--sp-2) var(--sp-2);
+  font-size: 0.875rem;
   font-weight: 500;
   color: var(--clr-text-muted);
   border-radius: var(--r-sm);
   text-decoration: none;
   transition: color var(--tr), background-color var(--tr);
+  white-space: nowrap;
 }
 
 .nav-list a:hover,
